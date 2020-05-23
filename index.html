@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <title>Sign In and Out Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay">
+        <div class="panel-item">
+          <div class="panel-left">
+            <h1>Welcome Back!</h1>
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
+          </div>
+          <div class="panel-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+          </div>
+        </div>
+        <div class="form-container">
+          <div class="form sign-up-container">
+            <form action="#">
+              <h1>Create Account</h1>
+              <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <span>or use your email for registration</span>
+              <input type="text" placeholder="&#xf007;    Name" />
+              <input type="email" placeholder="&#xf0e0;   Email" />
+              <input type="password" placeholder="&#xf023;    Password" />
+              <button>Sign Up</button>
+            </form>
+          </div>
+          <div class="form sign-in-container">
+            <form action="#">
+              <h1>Sign in</h1>
+              <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <span>or use your account</span>
+              <input type="email" placeholder="&#xf0e0;   Email" />
+              <input type="password" placeholder="&#xf023;    Password" />
+              <a href="#">Forgot your password?</a>
+              <button>Sign In</button>
+            </form>
+          </div>
+        </div>
+        <div class="panel">
+          <button class="ghost">
+            <p class="buttonText" id="signIn">Sign In</p>
+            <p class="buttonText" id="signOut">Sign Out</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
